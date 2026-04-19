@@ -40,8 +40,9 @@ The work demonstrates that ML-based inspection can replace manual visual checks 
 
 ```
 ├── data/                  # Sample or synthetic data (see note below)
+│   └── Q4.0 model testing.ipynb
 ├── notebooks/
-│   └── defect_detection.ipynb
+│   └── Q4.0 model testing.ipynb
 ├── images/
 │   ├── roc_curve.png
 │   ├── confusion_matrix.png
@@ -50,18 +51,7 @@ The work demonstrates that ML-based inspection can replace manual visual checks 
 └── README.md
 ```
 
-> **Note on data:** The original dataset is proprietary. A synthetic demonstration dataset is included to allow the pipeline to run end-to-end.
-
----
-
-## How to run
-
-```bash
-git clone https://github.com/YOUR_USERNAME/automotive-defect-detection
-cd automotive-defect-detection
-pip install -r requirements.txt
-jupyter notebook notebooks/defect_detection.ipynb
-```
+> **Note on data:** The original dataset is proprietary. A synthetic demonstration dataset is included.
 
 ---
 
