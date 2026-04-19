@@ -36,21 +36,6 @@ The work demonstrates that ML-based inspection can replace manual visual checks 
 
 ---
 
-## Repository structure
-
-```
-├── data/                  # Sample or synthetic data (see note below)
-│   └── Q4.0 model testing.ipynb
-├── notebooks/
-│   └── Q4.0 model testing.ipynb
-├── images/
-│   ├── roc_curve.png
-│   ├── confusion_matrix.png
-│   └── feature_importance.png
-├── requirements.txt
-└── README.md
-```
-
 > **Note on data:** The original dataset is proprietary. A synthetic demonstration dataset is included.
 
 ---
